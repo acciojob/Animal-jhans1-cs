@@ -1,14 +1,28 @@
 /*  your css code here. If applicable */
-.insider{
-	background-color:gray;
+*{
+	padding:0;
+	margin:0;
 }
-.insider #photo-heading{
-	text-align:center;
+#animal-photos{
+	width:100vw;
+	height:80vh;
+	background:black;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
 	color:white;
-	
 }
-.insider img{
-	width:200px;
-	border-radius:20%;
-	margin:10px 10px 12px 19px;
+.images{
+	width:80%;
+	height:100%;
+	background:gray;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+img{
+	width:170px;
+	border-radius:10px
 }
